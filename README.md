@@ -22,4 +22,6 @@ This summary explains the relevant parts of the circuit from left to right.
 
 #Testing Results
 
+Generally, the decoupled power supplpy can significantly reduce the noise in votalge 
+
 #Outlooks
