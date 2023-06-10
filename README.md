@@ -6,6 +6,12 @@ This power supply was designed by Mark Carlson at UBC, and we are closely follow
 
 # Table of Contents 
 - [Motivation](#Motivation)
+- [Parts List](#Parts-List)
+- [Schematic](#Schematic)
+- [Motivation](#Motivation)
+- [Motivation](#Motivation)
+- [Motivation](#Motivation)
+
 
 # Motivation
 
