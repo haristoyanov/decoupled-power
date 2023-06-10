@@ -1,1 +1,6 @@
 Contains Altium Files, PNG Image and PDF Schematic of the PCB designed at UBC that we used to build our Power Supply. 
+
+Files and Desciption:
+- "E21-015 PS Update.PcbDoc" and "E21-015 PS Update.SchDoc": Altium files for PCB
+- "PS PCB.PNG": PNG image of PCB
+- "E21-015 PS Update.pdf": PDF of circuit schematic for PCB
