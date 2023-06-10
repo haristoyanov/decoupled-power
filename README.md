@@ -26,17 +26,14 @@ This summary explains the relevant parts of the circuit from left to right.
 
 # Preliminary testing
 
+<img width="630" alt="Screenshot 2023-06-09 at 6 44 04 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/bba38b9a-e980-4df8-bfa3-ca94d0122f6e">
+
 The first testing after confirming a ±15V DC output involved determining the Power Supply Rejection Ratio (PSRR). The power supply ratio is defined as the logarithm of the ouput/input (squared) voltage ripple ratio. For 60Hz noise in particular, the ripple is the integral of the voltage noise spectral density (Fourier transform of the input) over a small bandwidth near 60 Hz for the input (16V AC) and output (±15V DC). As such, an ideal DC power supply has an infinite PSRR.
 
 The testing was conducted through a capacitor to the analog input of a Stanford Research Systems SR1 spectrum analyzer.
-Preliminary results indicate a power supply rejection ratio (from 120V AC wall power) of approximately 160. This compares to roughly 100 for the DC power supply that is currently used (estimated from the voltage ripple quoted in the datasheet). Plots are uploaded to the repository.
-<img width="630" alt="Screenshot 2023-06-09 at 6 44 04 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/bba38b9a-e980-4df8-bfa3-ca94d0122f6e">
+Preliminary results indicate a power supply rejection ratio (from 120V AC wall power) of approximately 160. This compares to roughly 100 for the DC power supply that is currently used (estimated from the voltage ripple quoted in the datasheet). Below is a graph of root-mean-squared Voltage versus frequency on logarithmic axes for a narrow range of frequencies around 60 Hz. We used the data displayed in this plot to calculate our PSRR. 
 
-
-![Vrms_PSRR_calc](https://github.com/haristoyanov/decoupled-power/assets/99318653/4c8b1d46-8e35-4823-bfaf-0bb040c0c515)
-![Vrms_PSRR_widesweep](https://github.com/haristoyanov/decoupled-power/assets/99318653/8a7d4cc6-bbd5-4cc6-944e-eb569758c0ae)
-
-![spectral_density](https://github.com/haristoyanov/decoupled-power/assets/99318653/cc1e82ee-6b11-452d-a639-6eda34b72a37)
+<img width="537" alt="image" src="https://github.com/haristoyanov/decoupled-power/assets/99318653/ef4b98ba-cb4f-4346-ad62-4142d06d3991">
 
 # Outlook
 We will machine protective boxes for convenience. Also, we will try to implement potentiometers to create an adjustable output.
