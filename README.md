@@ -66,7 +66,7 @@ The testing was conducted through a capacitor to the analog input of a Stanford 
 Preliminary results indicate a power supply rejection ratio (from 120V AC wall power) of approximately 160. This compares to roughly 100 for the DC power supply that is currently used (Acopian TD15-40, estimated from the voltage ripple quoted in its datasheet). Below is a graph of root-mean-squared Voltage versus frequency on logarithmic axes for a narrow range of frequencies around 60 Hz. We used the data displayed in this plot to calculate our PSRR. 
 
 <div align="center">
-<img width="537" alt="image" src="https://github.com/haristoyanov/decoupled-power/assets/99318653/ef4b98ba-cb4f-4346-ad62-4142d06d3991">
+<img width="537" alt="image" src="[https://github.com/haristoyanov/decoupled-power/assets/99318653/ef4b98ba-cb4f-4346-ad62-4142d06d3991"](https://github.com/haristoyanov/decoupled-power/blob/5cff1c346d4bc823e72a9731822f1c751b559a75/Figures/Images%20for%20README/narrow.png)>
 </div>
 
 <br />
