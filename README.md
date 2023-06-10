@@ -46,11 +46,14 @@ Preliminary results indicate a power supply rejection ratio (from 120V AC wall p
 <img width="537" alt="image" src="https://github.com/haristoyanov/decoupled-power/assets/99318653/ef4b98ba-cb4f-4346-ad62-4142d06d3991">
 </div>
 
-It is also of interest to examine the performance of our power supply at a wide range of frequencies. Below is a plot of the voltage noise spectral density in V/rtHz against the frequency in Hz on logarithmic axes for a frequency range of 0 Hz to 1500 Hz. To get the total voltage noise in a certain bandwidth, one must integrate the square of the spectral density across that bandwidth and then take the square root of the result. 
+
+
+It is also of interest to examine the performance of our power supply at a wide range of frequencies. Below is a plot of the voltage noise spectral density in V/rtHz against the frequency in Hz on logarithmic axes for a frequency range of 0 Hz to 1500 Hz. To get the total voltage noise in a certain bandwidth, one must integrate the square of the spectral density across that bandwidth and then take the square root of the result. After performing a rough integration across a bandwidth ranging from 10 Hz to 1500 Hz using the method described above, we found that the total voltage noise was reduced by a factor of 100,000.
 
 <div align="center">
 <img width="555" alt="image" src="https://github.com/haristoyanov/decoupled-power/assets/99318653/450a2adf-b919-48ae-baff-ac4db87e1f2b">
 </div>
+
 
 # Outlook
 We will machine protective boxes for convenience. Also, we will try to implement potentiometers to create an adjustable output.
