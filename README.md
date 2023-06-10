@@ -38,7 +38,7 @@ Below is a list of all circuit parts used for this project, excluding the Printe
 
 This summary explains the relevant parts of the circuit from left to right.
 1. The transformer takes wall power (120V AC at 60Hz) and outputs 16V AC at 60 Hz. This is the input to the power supply.
-2. The diodes rectify the current, so that the top branch always has positive voltage and the negative branch always has negative voltage.
+2. The diodes rectify the current, so that the top branch always has positive voltage and the bottom branch always has negative voltage.
 3. The positive and negative voltage regulator ICs (TL1963A and LM2991, respectively) are supplied by the rectified AC, and decoupled using the capacitors to ground (filtering high-frequency noise and preventing output coupling to spikes or dips in the input AC). These output a DC voltage, with a shutdown (SHDN) indicator to show if they are working.
 4. The exact output voltage is determined by the voltage on the ADJ pin. The 13K/1K voltage divider sets an output voltage of ±16 V on each branch.
 5. The second stage of the circuit is powered by the ±16V. The first component is the 10V voltage reference IC (REF102), which outputs a more precise DC voltage than a voltage regulator. However, it only allows small current draw.
@@ -63,7 +63,7 @@ The testing was conducted through a capacitor to the analog input of a Stanford 
 
 
 
-Preliminary results indicate a power supply rejection ratio (from 120V AC wall power) of approximately 160. This compares to roughly 100 for the DC power supply that is currently used (estimated from the voltage ripple quoted in the datasheet). Below is a graph of root-mean-squared Voltage versus frequency on logarithmic axes for a narrow range of frequencies around 60 Hz. We used the data displayed in this plot to calculate our PSRR. 
+Preliminary results indicate a power supply rejection ratio (from 120V AC wall power) of approximately 160. This compares to roughly 100 for the DC power supply that is currently used (Acopian TD15-40, estimated from the voltage ripple quoted in its datasheet). Below is a graph of root-mean-squared Voltage versus frequency on logarithmic axes for a narrow range of frequencies around 60 Hz. We used the data displayed in this plot to calculate our PSRR. 
 
 <div align="center">
 <img width="537" alt="image" src="https://github.com/haristoyanov/decoupled-power/assets/99318653/ef4b98ba-cb4f-4346-ad62-4142d06d3991">
@@ -71,7 +71,7 @@ Preliminary results indicate a power supply rejection ratio (from 120V AC wall p
 
 <br />
 <br />
-It is also of interest to examine the performance of our power supply at a wide range of frequencies. Below is a plot of the voltage noise spectral density in V/rtHz against the frequency in Hz on logarithmic axes for a frequency range of 0 Hz to 1500 Hz. To get the total voltage noise in a certain bandwidth, one must integrate the square of the spectral density across that bandwidth and then take the square root of the result. After performing a rough integration across a bandwidth ranging from 10 Hz to 1500 Hz using the method described above, we found that the total voltage noise was reduced by a factor of 100,000.
+It is also of interest to examine the performance of our power supply at a wide range of frequencies. Below is a plot of the voltage noise spectral density (V/rtHz) against the frequency (Hz) on logarithmic axes for a frequency range of 0 Hz to 1500 Hz. To get the total voltage noise in a certain bandwidth, one must integrate the square of the spectral density across that bandwidth and then take the square root of the result. After performing a rough integration across a bandwidth ranging from 10 Hz to 1500 Hz using the method described above, we found that the total voltage noise was reduced by a factor of approximately 100,000.
 
 <div align="center">
 <img width="555" alt="image" src="https://github.com/haristoyanov/decoupled-power/assets/99318653/450a2adf-b919-48ae-baff-ac4db87e1f2b">
