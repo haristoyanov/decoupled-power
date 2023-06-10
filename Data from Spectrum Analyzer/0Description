@@ -1,0 +1,9 @@
+Contains the data that we took on the SR-1 spectrum analyzer in the Young Lab at UCSB using the method described in the README. 
+
+Files and Descriptions:
+- "0602Vrmsoutputwide copy.TXT": 2 column data of RMS Voltage (V) against frequency (Hz) for a wide sweep (0 to 1500 Hz) measured at the output of Power Supply.
+- "0602Vrmsinputwide copy.TXT": 2 column data of RMS Voltage (V) against frequency (Hz) for a wide sweep (0 to 1500 Hz) measured at the input of PS.
+- "0602Vrmsinputnarrow copy.TXT": 2 column data of RMS Voltage (V) against frequency (Hz) for a narrow sweep around 60 Hz measured at the input of PS. 
+   Averaged for longer than in the wider sweep in the files labeled "wide" to get better resolution around the 60 Hz peak. 
+- "0602Vrmsoutputnarrow copy.TXT": 2 column data of RMS Voltage (V) against frequency (Hz) for a narrow sweep around 60 Hz measured at the output of PS. 
+   Averaged for longer than in the wider sweep in the files labeled "wide" to get better resolution around the 60 Hz peak. 
