@@ -20,6 +20,11 @@ Below is a list of all circuit parts used for this project, excluding the Printe
 <div align="center">
 <img width="571" alt="image" src="https://github.com/haristoyanov/decoupled-power/assets/99318653/3e2336b5-bade-45c2-9898-a91e48bda6a0">
 </div>
+
+<br/>
+<br/>
+
+
 # Schematic 
 
 This summary explains the relevant parts of the circuit from left to right.
