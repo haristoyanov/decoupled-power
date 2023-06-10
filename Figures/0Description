@@ -1,0 +1,8 @@
+Contains figures generated from the data we took in the SR-1 spectrum analyzer as described in the README of this repository. 
+
+Files and Description: 
+- "Vrms_PSRR_calc.png": RMS voltage (in V) plotted against frequency (in Hz) on logarithmic axes for a narrow frequency band around 60 Hz. 
+- "Vrms_PSRR_widesweep.png": Power Supply Rejection Ratio (formula is described in the README) plotted against frequency (in Hz) on logarithmic axes for the 
+  entire frequency range 0 Hz to 1500 Hz. 
+- "spectral_density.png": voltage noise spectral density (in V/rtHz) plotted against frequency (Hz) on logarithmic axes for the entire frequency range 0 
+  to 1500 Hz. 
