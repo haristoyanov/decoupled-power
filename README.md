@@ -32,7 +32,8 @@ The testing was conducted through a capacitor to the analog input of a Stanford 
 Preliminary results indicate a power supply rejection ratio (from 120V AC wall power) of approximately 160. This compares to roughly 100 for the DC power supply that is currently used (estimated from the voltage ripple quoted in the datasheet). Plots are uploaded to the repository.
 <img width="630" alt="Screenshot 2023-06-09 at 6 44 04 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/bba38b9a-e980-4df8-bfa3-ca94d0122f6e">
 
-#Outlooks
+# Outlooks
+
 1. Protective Casing: increase durability and safety
 2. Adjustable output: different outputs for different situations
 
