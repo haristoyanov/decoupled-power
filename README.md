@@ -21,6 +21,7 @@ This summary explains the relevant parts of the circuit from left to right.
 7. The second op-amp matches and inverts the output of the first, ensuring a linear relationship between the positive and negative output.
 8. The two transistors (Q30 and Q31) allow for more current draw from the 16V supply. This current is limited by the voltage regulator ICs, which allow 1A of current to flow.
 9. The output goes through an Ethernet-style connector, whose indicator lights indicate whether each branch is outputing a voltage.
+
 <img width="1251" alt="Screenshot 2023-06-09 at 6 42 34 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/45a32355-8772-45dc-814c-7ff42b976d89">
 
 # Preliminary testing
@@ -30,5 +31,6 @@ The first testing after confirming a ±15V DC output involved determining the Po
 The testing was conducted through a capacitor to the analog input of a Stanford Research Systems SR1 spectrum analyzer.
 Preliminary results indicate a power supply rejection ratio (from 120V AC wall power) of approximately 160. This compares to roughly 100 for the DC power supply that is currently used (estimated from the voltage ripple quoted in the datasheet). Plots are uploaded to the repository.
 <img width="630" alt="Screenshot 2023-06-09 at 6 44 04 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/bba38b9a-e980-4df8-bfa3-ca94d0122f6e">
+
 
 
