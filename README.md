@@ -39,7 +39,15 @@ The first testing after confirming a ±15V DC output involved determining the Po
 The testing was conducted through a capacitor to the analog input of a Stanford Research Systems SR1 spectrum analyzer.
 Preliminary results indicate a power supply rejection ratio (from 120V AC wall power) of approximately 160. This compares to roughly 100 for the DC power supply that is currently used (estimated from the voltage ripple quoted in the datasheet). Below is a graph of root-mean-squared Voltage versus frequency on logarithmic axes for a narrow range of frequencies around 60 Hz. We used the data displayed in this plot to calculate our PSRR. 
 
+<div align="center">
 <img width="537" alt="image" src="https://github.com/haristoyanov/decoupled-power/assets/99318653/ef4b98ba-cb4f-4346-ad62-4142d06d3991">
+</div>
+
+It is also of interest to examine the performance of our power supply at a wide range of frequencies. Below is a plot of the voltage noise spectral density in V/rtHz against the frequency in Hz on logarithmic axes for a frequency range of 0 Hz to 1500 Hz. To get the total voltage noise in a certain bandwidth, one must integrate the square of the spectral density across that bandwidth and then take the square root of the result. 
+
+<div align="center">
+<img width="555" alt="image" src="https://github.com/haristoyanov/decoupled-power/assets/99318653/450a2adf-b919-48ae-baff-ac4db87e1f2b">
+</div>
 
 # Outlook
 We will machine protective boxes for convenience. Also, we will try to implement potentiometers to create an adjustable output.
