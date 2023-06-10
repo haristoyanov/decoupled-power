@@ -10,7 +10,15 @@ Low noise, ground-decoupled DC is important for powering ADC/DACs and preamplifi
 <div align="center">
 <img width="589" alt="Screenshot 2023-06-09 at 6 09 12 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/73556322-234e-40cd-8953-b06da64c9e48">
 </div>
+<br/>
+<br/>
 
+
+# Parts List 
+Below is a list of all circuit parts used for this project, excluding the Printed Circuit Boards themselves, which were ordered from OSHpark. 
+<div align="center">
+<img width="571" alt="image" src="https://github.com/haristoyanov/decoupled-power/assets/99318653/3e2336b5-bade-45c2-9898-a91e48bda6a0">
+</div>
 # Schematic 
 
 This summary explains the relevant parts of the circuit from left to right.
