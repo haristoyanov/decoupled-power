@@ -4,6 +4,9 @@ The goal of this project is to create a low-noise, decoupled power supply to pow
 
 This power supply was designed by Mark Carlson at UBC, and we are closely following his original schematics.
 
+# Table of Contents 
+- [Motivation](#Motivation)
+
 # Motivation
 
 Low noise, ground-decoupled DC is important for powering ADC/DACs and preamplifiers without introducing noise to the extremely sensitive measurement signals in an experimental condensed matter lab. Currently, the options are a stock DC power supply and a battery power supply. It is possible to improve on the DC power supply in terms of noise level, and the battery (while having low noise) has to be charged and has an unpredictable and possibly dangerous failure mode.
