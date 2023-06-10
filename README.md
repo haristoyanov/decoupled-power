@@ -37,6 +37,7 @@ The first testing after confirming a ±15V DC output involved determining the Po
 </div>
 
 The testing was conducted through a capacitor to the analog input of a Stanford Research Systems SR1 spectrum analyzer.
+<br>
 Preliminary results indicate a power supply rejection ratio (from 120V AC wall power) of approximately 160. This compares to roughly 100 for the DC power supply that is currently used (estimated from the voltage ripple quoted in the datasheet). Below is a graph of root-mean-squared Voltage versus frequency on logarithmic axes for a narrow range of frequencies around 60 Hz. We used the data displayed in this plot to calculate our PSRR. 
 
 <div align="center">
