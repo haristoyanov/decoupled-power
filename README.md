@@ -19,3 +19,7 @@ This summary explains the relevant parts of the circuit from left to right.
 7. The second op-amp matches and inverts the output of the first, ensuring a linear relationship between the positive and negative output.
 8. The two transistors (Q30 and Q31) allow for more current draw from the 16V supply. This current is limited by the voltage regulator ICs, which allow 1A of current to flow.
 9. The output goes through an Ethernet-style connector, whose indicator lights indicate whether each branch is outputing a voltage.
+
+#Testing Results
+
+#Outlooks
