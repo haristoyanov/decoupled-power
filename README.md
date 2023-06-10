@@ -7,8 +7,10 @@ This power supply was designed by Mark Carlson at UBC, and we are closely follow
 # Motivation
 
 Low noise, ground-decoupled DC is important for powering ADC/DACs and preamplifiers without introducing noise to the extremely sensitive measurement signals in an experimental condensed matter lab. Currently, the options are a stock DC power supply and a battery power supply. It is possible to improve on the DC power supply in terms of noise level, and the battery (while having low noise) has to be charged and has an unpredictable and possibly dangerous failure mode.
+<img width="589" alt="Screenshot 2023-06-09 at 6 09 12 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/73556322-234e-40cd-8953-b06da64c9e48">
 
 # Schematic 
+
 This summary explains the relevant parts of the circuit from left to right.
 1. The transformer takes wall power (120V AC at 60Hz) and outputs 16V AC at 60 Hz. This is the input to the power supply.
 2. The diodes rectify the current, so that the top branch always has positive voltage and the negative branch always has negative voltage.
@@ -20,14 +22,15 @@ This summary explains the relevant parts of the circuit from left to right.
 8. The two transistors (Q30 and Q31) allow for more current draw from the 16V supply. This current is limited by the voltage regulator ICs, which allow 1A of current to flow.
 9. The output goes through an Ethernet-style connector, whose indicator lights indicate whether each branch is outputing a voltage.
 
-#Testing Results
+<img width="1251" alt="Screenshot 2023-06-09 at 6 42 34 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/45a32355-8772-45dc-814c-7ff42b976d89">
 
-Generally, the decoupled power supplpy can significantly reduce the noise in votalge. We did a lot of testing from different perspectives. 
+# Preliminary testing
 
-Firstly, we tested power supply rejection ratio(PSRR)
+The first testing after confirming a ±15V DC output involved determining the Power Supply Rejection Ratio (PSRR). The power supply ratio is defined as the logarithm of the ouput/input (squared) voltage ripple ratio. For 60Hz noise in particular, the ripple is the integral of the voltage noise spectral density (Fourier transform of the input) over a small bandwidth near 60 Hz for the input (16V AC) and output (±15V DC). As such, an ideal DC power supply has an infinite PSRR.
+
+The testing was conducted through a capacitor to the analog input of a Stanford Research Systems SR1 spectrum analyzer.
+Preliminary results indicate a power supply rejection ratio (from 120V AC wall power) of approximately 160. This compares to roughly 100 for the DC power supply that is currently used (estimated from the voltage ripple quoted in the datasheet). Plots are uploaded to the repository.
+<img width="630" alt="Screenshot 2023-06-09 at 6 44 04 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/bba38b9a-e980-4df8-bfa3-ca94d0122f6e">
 
 
-#Outlooks
-1. Protective Casing: increase durability and safety
-2. Adjustable output: different outputs for different situations
 
