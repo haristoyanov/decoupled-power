@@ -36,5 +36,5 @@ Preliminary results indicate a power supply rejection ratio (from 120V AC wall p
 We will machine protective boxes for convenience. Also, we will try to implement potentiometers to create an adjustable output.
 
 # Acknowledgements
-Thank you to the instructors, TAs, and our classmates for UCSB PHYS 13CL/CS15C,thank you to the Dr. Young and all the Young lab grad students and postdocs that helped us, and thank you to Dr. Folk and Mark Carlson at UBC for the schematics and designs.
+Thank you to the instructors, TAs, and our classmates for UCSB PHYS 13CL/CS15C, thank you to the Dr. Young and all the Young lab grad students and postdocs that helped us, and thank you to Dr. Folk and Mark Carlson at UBC for the schematics and designs.
 
