@@ -8,9 +8,9 @@ This power supply was designed by Mark Carlson at UBC, and we are closely follow
 - [Motivation](#Motivation)
 - [Parts List](#Parts-List)
 - [Schematic](#Schematic)
-- [Motivation](#Motivation)
-- [Motivation](#Motivation)
-- [Motivation](#Motivation)
+- [Testing](#Testing)
+- [Outlook](#Outlook)
+- [Acknowledgements](#Acknowledgements)
 
 
 # Motivation
@@ -51,7 +51,7 @@ This summary explains the relevant parts of the circuit from left to right.
 <img width="1251" alt="Screenshot 2023-06-09 at 6 42 34 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/45a32355-8772-45dc-814c-7ff42b976d89">
 </div>
 
-# Preliminary testing
+# Testing
 
 The first testing after confirming a ±15V DC output involved determining the Power Supply Rejection Ratio (PSRR). The power supply ratio is defined as the logarithm of the ouput/input (squared) voltage ripple ratio. For 60Hz noise in particular, the ripple is the integral of the voltage noise spectral density (Fourier transform of the input) over a small bandwidth near 60 Hz for the input (16V AC) and output (±15V DC). As such, an ideal DC power supply has an infinite PSRR.
 
