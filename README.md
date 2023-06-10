@@ -17,7 +17,8 @@ This power supply was designed by Mark Carlson at UBC, and we are closely follow
 
 Low noise, ground-decoupled DC is important for powering ADC/DACs and preamplifiers without introducing noise to the extremely sensitive measurement signals in an experimental condensed matter lab. Currently, the options are a stock DC power supply and a battery power supply. It is possible to improve on the DC power supply in terms of noise level, and the battery (while having low noise) has to be charged and has an unpredictable and possibly dangerous failure mode.
 <div align="center">
-<img width="589" alt="Screenshot 2023-06-09 at 6 09 12 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/73556322-234e-40cd-8953-b06da64c9e48">
+<img src="https://github.com/haristoyanov/decoupled-power/blob/2b456b787f344512048ab51aedb26e7b7332418c/Figures/Images%20for%20README/setup.png">
+</div>
 </div>
 <br/>
 <br/>
@@ -27,7 +28,7 @@ Low noise, ground-decoupled DC is important for powering ADC/DACs and preamplifi
 Below is a list of all circuit parts used for this project, excluding the Printed Circuit Boards themselves, which were ordered from OSHpark. The PCB design and schematics are included in the PCB folder of this repository. 
 
 <div align="center">
-<img width="571" alt="image" src="https://github.com/haristoyanov/decoupled-power/assets/99318653/3e2336b5-bade-45c2-9898-a91e48bda6a0">
+<img src="https://github.com/haristoyanov/decoupled-power/blob/2b456b787f344512048ab51aedb26e7b7332418c/Figures/Images%20for%20README/partslist.png">
 </div>
 
 <br/>
@@ -48,7 +49,7 @@ This summary explains the relevant parts of the circuit from left to right.
 9. The output goes through an Ethernet-style connector, whose indicator lights indicate whether each branch is outputing a voltage.
 
 <div align="center">
-<img width="1251" alt="Screenshot 2023-06-09 at 6 42 34 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/45a32355-8772-45dc-814c-7ff42b976d89">
+<img src="https://github.com/haristoyanov/decoupled-power/blob/2b456b787f344512048ab51aedb26e7b7332418c/Figures/Images%20for%20README/schematic.png">
 </div>
 
 # Testing
@@ -56,7 +57,7 @@ This summary explains the relevant parts of the circuit from left to right.
 The first testing after confirming a ±15V DC output involved determining the Power Supply Rejection Ratio (PSRR), which describes how well the power supply attenuates noise at a frequency of interest. The PSRR is defined as the 20 times the logarithm of the input to output voltage ripple ratio at 60 Hz. As such, an ideal DC power supply has an infinite PSRR.
 
 <div align="center">
-<img width="630" alt="Screenshot 2023-06-09 at 6 44 04 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/bba38b9a-e980-4df8-bfa3-ca94d0122f6e">
+<img src="https://github.com/haristoyanov/decoupled-power/blob/2b456b787f344512048ab51aedb26e7b7332418c/Figures/Images%20for%20README/testsetup.png">
 </div>
 
 The testing was conducted through a capacitor to the analog input of a Stanford Research Systems SR1 spectrum analyzer.
@@ -66,7 +67,7 @@ The testing was conducted through a capacitor to the analog input of a Stanford 
 Preliminary results indicate a power supply rejection ratio (from 120V AC wall power) of approximately 160. This compares to roughly 100 for the DC power supply that is currently used (Acopian TD15-40, estimated from the voltage ripple quoted in its datasheet). Below is a graph of root-mean-squared Voltage versus frequency on logarithmic axes for a narrow range of frequencies around 60 Hz. We used the data displayed in this plot to calculate our PSRR. 
 
 <div align="center">
-<img src= "https://github.com/haristoyanov/decoupled-power/blob/5cff1c346d4bc823e72a9731822f1c751b559a75/Figures/Images%20for%20README/narrow.png">
+<img src="https://github.com/haristoyanov/decoupled-power/blob/5cff1c346d4bc823e72a9731822f1c751b559a75/Figures/Images%20for%20README/narrow.png">
 </div>
 
 <br />
@@ -74,7 +75,7 @@ Preliminary results indicate a power supply rejection ratio (from 120V AC wall p
 It is also of interest to examine the performance of our power supply at a wide range of frequencies. Below is a plot of the voltage noise spectral density (V/rtHz) against the frequency (Hz) on logarithmic axes for a frequency range of 0 Hz to 1500 Hz. To get the total voltage noise in a certain bandwidth, one must integrate the square of the spectral density across that bandwidth and then take the square root of the result. After performing a rough integration across a bandwidth ranging from 10 Hz to 1500 Hz using the method described above, we found that the total voltage noise was reduced by a factor of approximately 100,000.
 
 <div align="center">
-<img src="https://github.com/haristoyanov/decoupled-power/blob/5cff1c346d4bc823e72a9731822f1c751b559a75/Figures/Images%20for%20README/narrow.png">
+<img src="https://github.com/haristoyanov/decoupled-power/blob/2b456b787f344512048ab51aedb26e7b7332418c/Figures/Images%20for%20README/widesweep.png">
 </div>
 
 <br />
