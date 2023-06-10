@@ -1,0 +1,6 @@
+Contains python code used to analyze the data we took to measure both the PSRR and the voltage noise reduction. Code comments describe in more detail
+the procedure of the analysis. 
+
+File Name and Descriptions: 
+- "VNoiseSpec_Anal.py": code used to calculate voltage noise reduction using voltage noise spectral density
+- "PSSRCalc_Anal.py": code used to calculate the PSRR
