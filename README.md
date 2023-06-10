@@ -54,6 +54,10 @@ It is also of interest to examine the performance of our power supply at a wide 
 <img width="555" alt="image" src="https://github.com/haristoyanov/decoupled-power/assets/99318653/450a2adf-b919-48ae-baff-ac4db87e1f2b">
 </div>
 
+<br />
+<br />
+
+More figures and the code used to analyze this data can be found in the appropriately named folders of this repository. 
 
 # Outlook
 We will machine protective boxes for convenience. Also, we will try to implement potentiometers to create an adjustable output.
