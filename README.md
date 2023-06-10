@@ -33,8 +33,8 @@ Preliminary results indicate a power supply rejection ratio (from 120V AC wall p
 <img width="630" alt="Screenshot 2023-06-09 at 6 44 04 PM" src="https://github.com/haristoyanov/decoupled-power/assets/133173558/bba38b9a-e980-4df8-bfa3-ca94d0122f6e">
 
 # Outlooks
+We will machine protective boxes for convenience. Also, we will try to implement potentiometers to create an adjustable output.
 
-1. Protective Casing: increase durability and safety
-2. Adjustable output: different outputs for different situations
-
+# Acknowledgements
+Thank you to the instructors, TAs, and our classmates for UCSB PHYS 13CL/CS15C,thank you to the Dr. Young and all the Young lab grad students and postdocs that helped us, and thank you to Dr. Folk and Mark Carlson at UBC for the schematics and designs.
 
