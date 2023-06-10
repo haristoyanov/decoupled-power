@@ -22,6 +22,12 @@ This summary explains the relevant parts of the circuit from left to right.
 
 #Testing Results
 
-Generally, the decoupled power supplpy can significantly reduce the noise in votalge 
+Generally, the decoupled power supplpy can significantly reduce the noise in votalge. We did a lot of testing from different perspectives. 
+
+Firstly, we tested power supply rejection ratio(PSRR)
+
 
 #Outlooks
+1. Protective Casing: increase durability and safety
+2. Adjustable output: different outputs for different situations
+
